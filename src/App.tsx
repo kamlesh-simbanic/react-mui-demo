@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { MuiCheckbox } from "./components/MuiCheckbox";
+import { MuiLayout } from "./components/MuiLayout";
 // import { MuiRadioButton } from "./components/MuiRadioButton";
 // import { MuiSelect } from "./components/MuiSelect";
 // import { MuiButton } from "./components/MuiButton";
@@ -15,8 +16,9 @@ function App() {
       {/* <MuiTextField /> */}
       {/* <MuiSelect /> */}
       {/* <MuiRadioButton /> */}
+      {/* <MuiCheckbox /> */}
 
-      <MuiCheckbox />
+      <MuiLayout />
     </div>
   );
 }
