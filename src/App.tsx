@@ -9,6 +9,7 @@ import { MuiCard } from "./components/MuiCard";
 // import { MuiCheckbox } from "./components/MuiCheckbox";
 import { MuiLayout } from "./components/MuiLayout";
 import { MuiNavbar } from "./components/MuiNavbar";
+import { MuiLink } from "./components/MuiLink";
 // import { MuiRadioButton } from "./components/MuiRadioButton";
 // import { MuiSelect } from "./components/MuiSelect";
 // import { MuiButton } from "./components/MuiButton";
@@ -27,12 +28,13 @@ function App() {
       {/* <MuiCheckbox /> */}
 
       <MuiNavbar />
-      <MuiLayout />
+      {/* <MuiLayout /> */}
       {/* <MuiPicker /> */}
       {/* <MuiTabs /> */}
       {/* <MuiResponsiveness /> */}
-
       {/* <MuiCard /> */}
+
+      <MuiLink />
     </div>
     // </LocalizationProvider>
   );
