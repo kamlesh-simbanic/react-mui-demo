@@ -1,6 +1,12 @@
 import React from "react";
 import "./App.css";
-import { MuiCheckbox } from "./components/MuiCheckbox";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import AdapterDateFns from "@mui/lab/AdapterDateFns";
+import { MuiPicker } from "./components/MuiPicker";
+import { MuiTabs } from "./components/MuiTabs";
+import { MuiResponsiveness } from "./components/MuiResponsiveness";
+import { MuiCard } from "./components/MuiCard";
+// import { MuiCheckbox } from "./components/MuiCheckbox";
 import { MuiLayout } from "./components/MuiLayout";
 // import { MuiRadioButton } from "./components/MuiRadioButton";
 // import { MuiSelect } from "./components/MuiSelect";
@@ -10,6 +16,7 @@ import { MuiLayout } from "./components/MuiLayout";
 
 function App() {
   return (
+    // <LocalizationProvider dateAdapter={AdapterDateFns}>
     <div className="App">
       {/* <MuiTypography />
       <MuiButton /> */}
@@ -17,9 +24,14 @@ function App() {
       {/* <MuiSelect /> */}
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckbox /> */}
-
       <MuiLayout />
+      {/* <MuiPicker /> */}
+      {/* <MuiTabs /> */}
+      {/* <MuiResponsiveness /> */}
+
+      {/* <MuiCard /> */}
     </div>
+    // </LocalizationProvider>
   );
 }
 
